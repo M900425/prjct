@@ -1,0 +1,127 @@
+body {
+    font-family: "roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: #2E2F42;
+}
+
+span {
+color: #4D5AE5;
+}
+
+header a:hover, header a:focus {
+    color: #4D5AE5;
+}
+
+header a:active{
+    color: #404BBF;
+}
+
+.logo {
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 3%;
+}
+
+nav ul {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+address ul {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+address a {
+    color: #434455;
+}
+
+.service {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 2%;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    cursor: pointer;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+footer a {
+    color: #F4F4FD;
+
+}
+
+footer p {
+    color: #F4F4FD;
+}
