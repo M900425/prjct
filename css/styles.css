@@ -102,12 +102,20 @@ p {
     text-align: center;
 }
 
+.ours {
+    font-size: 16px;
+}
+
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team ul {
     list-style-type: none;
+}
+
+.lst {
+    background-color: #FFFFFF
 }
 
 h2 {
