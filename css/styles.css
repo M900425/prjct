@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -13,11 +13,11 @@ nav a {
 }
 
 span {
-color: #4D5AE5;
+color: #2e2f42;
 }
 
 header a:hover, header a:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 header a:active{
@@ -25,26 +25,27 @@ header a:active{
 }
 
 .logo {
+    color: #4d5ae5;
     font-family: "raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 nav ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
-address ul {
+.address a {
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 address a {
@@ -60,7 +61,7 @@ h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
 
 }
