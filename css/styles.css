@@ -302,6 +302,7 @@ header address {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 32px 16px;
 }
 
 .portfolio ul {
@@ -328,7 +329,6 @@ border-right: 1px solid #E7E9FC;
 
 .portfolio .brdr-clr h3 {
     text-align: left;
-    padding: 32px 16px;
     margin-bottom: 8px;
 }
 
@@ -347,12 +347,9 @@ border-right: 1px solid #E7E9FC;
     gap: 16px;
 }
 
-.end a {
-    display: inline-block;
-}
-
-.end .logo {
+.end .container .logo {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .end p {
