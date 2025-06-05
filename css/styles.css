@@ -309,7 +309,7 @@ header address {
     flex-wrap: wrap;
     justify-content: space-between;
     column-gap: 24px;
-    row-gap: 48px
+    row-gap: 48px;
 }
 
 .portfolio li {
