@@ -259,12 +259,15 @@ header address {
     text-align: left;
 }
 
+.team {
+    padding: 120px 0;
+}
+
 .team .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 120px 0;
 }
 
 .team ul {
@@ -290,23 +293,27 @@ header address {
     margin-bottom: 8px;
 }
 
+.portfolio {
+    padding-top: 120px;
+}
+
 .portfolio .container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 32px 16px;
 }
 
 .portfolio ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px
 }
 
 .portfolio h2 {
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .portfolio .brdr-clr {
@@ -317,12 +324,10 @@ border-right: 1px solid #E7E9FC;
 
 .portfolio .brdr-clr h3 {
     text-align: left;
-    padding: 32px 0 8px 16px;
 }
 
 .portfolio .brdr-clr p {
     text-align: left;
-    padding: 0 0 32px 16px;
 }
 
 .end .container {
@@ -330,14 +335,15 @@ border-right: 1px solid #E7E9FC;
     flex-direction: column;
     align-items: start;
     gap: 16px;
+    padding: 100px 0;
 }
 
 .end .logo {
-    margin-top: 100px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .end p {
- max-width: 264px;
- text-align: left;
- margin-bottom: 100px;
+    max-width: 264px;
+    text-align: left;
 }
