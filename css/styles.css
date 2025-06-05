@@ -197,23 +197,26 @@ header address {
     gap: 40px;
 }
 
+.service {
+    padding: 188px 0;
+}
+
 .service .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 188px 0;
 }
 
 .title {
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .btn {
     border-radius: 4px;
     padding: 16px 32px;
-    margin-bottom: 188px;
     border: none;
+    min-width: 169px;
 }
 
 .core-values h2 {
