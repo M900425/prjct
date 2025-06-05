@@ -34,7 +34,8 @@ header a:active{
     line-height: 1.17;
     letter-spacing: 0.03em;
     padding: 1.5px 0;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
 }
 
 nav ul {
@@ -349,10 +350,6 @@ padding: 32px 16px;
 
 .end .container .logo {
     margin-bottom: 16px;
-}
-
-footer a {
-    display: inline-block;
 }
 
 .end p {
