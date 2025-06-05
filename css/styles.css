@@ -295,13 +295,13 @@ header address {
 
 .portfolio {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio .container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 32px 16px;
 }
 
 .portfolio ul {
@@ -312,8 +312,12 @@ header address {
     row-gap: 48px
 }
 
+.portfolio li {
+    width: calc((100% - 48px) / 3);
+}
+
 .portfolio h2 {
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .portfolio .brdr-clr {
@@ -324,10 +328,16 @@ border-right: 1px solid #E7E9FC;
 
 .portfolio .brdr-clr h3 {
     text-align: left;
+    padding: 32px 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio .brdr-clr p {
     text-align: left;
+}
+
+.end {
+    padding: 100px 0;
 }
 
 .end .container {
@@ -335,11 +345,13 @@ border-right: 1px solid #E7E9FC;
     flex-direction: column;
     align-items: start;
     gap: 16px;
-    padding: 100px 0;
+}
+
+.end a {
+    display: inline-block;
 }
 
 .end .logo {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
