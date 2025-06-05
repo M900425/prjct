@@ -35,7 +35,6 @@ header a:active{
     letter-spacing: 0.03em;
     padding: 1.5px 0;
     margin-right: 76px;
-    display: inline-block;
 }
 
 nav ul {
@@ -355,4 +354,8 @@ padding: 32px 16px;
 .end p {
     max-width: 264px;
     text-align: left;
+}
+
+footer .logo {
+    display: inline-block;
 }
