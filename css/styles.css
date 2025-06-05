@@ -356,6 +356,6 @@ padding: 32px 16px;
     text-align: left;
 }
 
-footer .logo {
+header .logo footer .logo {
     display: inline-block;
 }
