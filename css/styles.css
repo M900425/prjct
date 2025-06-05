@@ -224,14 +224,22 @@ header address {
 }
 
 .core-values .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .core-values ul {
     display: flex;
     justify-content: center;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
-    height: 264px;
     align-items: center;
 }
 
