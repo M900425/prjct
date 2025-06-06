@@ -11,6 +11,7 @@ a {
 nav a {
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 
 span {
@@ -170,13 +171,12 @@ img {
 }
 
 header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 header .container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -184,7 +184,6 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 76px;
 }
 
 header ul {
@@ -336,26 +335,25 @@ padding: 32px 16px;
     text-align: left;
 }
 
-.end {
+.end-f {
     padding: 100px 0;
 }
 
-.end .container {
-    display: inline-block;
+.end-f .container {
     flex-direction: column;
     align-items: start;
     gap: 16px;
 }
 
-.end .container .logo {
+.end-f .container .logo {
     margin-bottom: 16px;
 }
 
-.end p {
+.end-f p {
     max-width: 264px;
     text-align: left;
 }
 
-.end a {
+.end-f a {
     display: inline-block;
 }
