@@ -198,6 +198,11 @@ header address {
 
 .service {
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero-image.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .service .container {
@@ -356,4 +361,32 @@ padding: 32px 16px;
 
 .end-f a {
     display: inline-block;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    fill: #F4F4FD;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.icon:hover::before {
+    content: "icon";
+    background-color: #4D5AE5;
+}
+
+.icon:hover::after {
+    content: "icon";
+    background-color: #31D0AA;
 }
