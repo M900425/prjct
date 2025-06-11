@@ -230,8 +230,8 @@ header address ul li a {
             url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .service .container {
