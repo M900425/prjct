@@ -264,7 +264,6 @@ header address ul li a {
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -291,7 +290,6 @@ header address ul li a {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-
 }
 
 .core-values h3 {
