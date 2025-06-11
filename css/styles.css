@@ -342,12 +342,10 @@ header address ul li a {
     margin-bottom: 8px;
 }
 
-.social-icon {
+.social-icon .social {
     display: flex;
     justify-content: center;
     gap: 24px;
-
-
 }
 
 .portfolio {
