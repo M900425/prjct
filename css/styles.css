@@ -213,7 +213,6 @@ header nav {
 header ul {
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header address {
@@ -221,13 +220,18 @@ header address {
     gap: 40px;
 }
 
+header address ul li a {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .service {
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/hero-image.jpg);
-    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
+    background-size: cover;
 }
 
 .service .container {
@@ -246,6 +250,7 @@ header address {
     padding: 16px 32px;
     border: none;
     min-width: 169px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .core-values {
@@ -275,6 +280,18 @@ header address {
 
 .core-values li {
     flex-basis: calc((100% - 72px) / 4);
+}
+
+.core-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    
 }
 
 .core-values h3 {
