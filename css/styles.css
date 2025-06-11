@@ -449,7 +449,7 @@ padding: 32px 16px;
     gap: 16px;
 }
 
-.end-f .logp-p {
+.end-f .logo-p {
     margin-right: 120px;
 }
 
@@ -457,22 +457,31 @@ padding: 32px 16px;
     margin-bottom: 16px;
 }
 
-.end-f .media {
+.end-f .icons .media {
     color: #FFFFFF;
     margin-bottom: 16px;
+    font-weight: 500;
 
 }
 
-.end-f p {
+.end-f .description {
     max-width: 264px;
     text-align: left;
 }
 
-.end-f a {
+.end-f .logo {
     display: inline-block;
 }
 
 .end-f .social-icon {
     display: flex;
     gap: 16px;
+}
+
+.end-f .social-link {
+    display: flex;
+}
+
+.end-f .social-link:hover, .end-f .social-link:focus {
+    background-color: #31d0aa;
 }
