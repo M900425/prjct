@@ -402,14 +402,14 @@ header address ul li a {
     overflow: hidden;
 }
 
-.portfolio img {
+.portfolio .image:hover .apps {
     transform: translateY(0%);
 }
 
 .portfolio .apps {
     position: absolute;
     top: 0;
-    counter-reset: #f4f4fd;
+    color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
@@ -443,13 +443,24 @@ padding: 32px 16px;
 }
 
 .end-f .container {
+    display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: baseline;
     gap: 16px;
+}
+
+.end-f .logp-p {
+    margin-right: 120px;
 }
 
 .end-f .container .logo {
     margin-bottom: 16px;
+}
+
+.end-f .media {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
 }
 
 .end-f p {
@@ -459,4 +470,9 @@ padding: 32px 16px;
 
 .end-f a {
     display: inline-block;
+}
+
+.end-f .social-icon {
+    display: flex;
+    gap: 16px;
 }
