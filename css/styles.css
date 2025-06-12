@@ -232,6 +232,7 @@ header address ul li a {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .service .container {
@@ -328,6 +329,10 @@ header address ul li a {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team .ours {
+    margin-bottom: 8px;
+}
+
 .workers {
     padding: 32px 0;
 }
@@ -395,13 +400,13 @@ header address ul li a {
             0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio li:hover .apps {
+    transform: translateY(0%);
+}
+
 .portfolio .image {
     position: relative;
     overflow: hidden;
-}
-
-.portfolio .image:hover .apps {
-    transform: translateY(0%);
 }
 
 .portfolio .apps {
@@ -445,7 +450,6 @@ padding: 32px 16px;
     flex-direction: row;
     align-items: baseline;
     align-items: flex-start;
-    gap: 16px;
 }
 
 .end-f .logo-p {
