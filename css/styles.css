@@ -497,12 +497,12 @@ padding: 32px 16px;
 .end-f .subscribe {
     display: flex;
     gap: 24px;
-    align-items: flex-end;
+    flex-direction: column; 
     color: #FFFFFF;
 }
 
 .end-f .subscribe-text {
-    margin-bottom: 16px;
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -513,6 +513,7 @@ padding: 32px 16px;
 .end-f .container .footer-form {
     display: flex;
     gap: 24px;
+    align-items: flex-end;
 }
 
 .end-f .container .footer-form .footer-label {
@@ -527,6 +528,8 @@ padding: 32px 16px;
     padding: 8px 24px;
     border: none;
     min-width: 165px;
+    justify-content: center;
+    align-items: center;
 }
 
 .end-f .container .footer-btn:hover .end-f .container .footer-btn:focus{
