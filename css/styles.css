@@ -729,6 +729,15 @@ padding: 32px 16px;
     margin-bottom: 24px;
 }
 
+.checkbox-lable input:checked+label .custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+}
+
+.checkbox-lable input:checked+label .custom-checkbox svg {
+    fill: #F4F4FD;
+}
+
 .modal-checkbox {
     cursor: pointer;
     user-select: none;
@@ -754,13 +763,16 @@ padding: 32px 16px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
 }
 
-.send-btn {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 24px;
+.privacy-policy {
+    color: #4d5ae5;
 }
 
 .send {
