@@ -496,7 +496,6 @@ padding: 32px 16px;
 
 .end-f .subscribe {
     display: flex;
-    gap: 24px;
     flex-direction: column; 
     color: #FFFFFF;
 }
@@ -508,6 +507,7 @@ padding: 32px 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .end-f .container .footer-form {
