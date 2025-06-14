@@ -657,7 +657,7 @@ padding: 32px 16px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
-    
+
 }
 
 .modal form .input-svg {
@@ -667,6 +667,7 @@ padding: 32px 16px;
     margin-top: 4px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .modal form .input-svg input {
