@@ -567,10 +567,10 @@ padding: 32px 16px;
     height: 100%;
     z-index: 999;
     background-color: rgba(46, 47, 66, 0.4);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 1;
     pointer-events: auto;
+    padding: 72px 24px 24px 24px;
 }
 
 .modal-window .is-open {
@@ -604,8 +604,7 @@ padding: 32px 16px;
     right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover, .close-btn:focus {
@@ -614,16 +613,19 @@ padding: 32px 16px;
 
 }
 
-.modal h3 {
+.modal p {
+    margin-top: 72px;
     text-transform: lowercase;
     text-align: center;
     font-size: 16px;
     margin-bottom: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-.modal h3::first-letter {
+.modal p::first-letter {
     text-transform: uppercase;
 }
 
@@ -659,7 +661,14 @@ padding: 32px 16px;
 .modal form .input-svg svg {
     margin-left: 16px;
     margin-right: 4px;
+}
+
+.modal form .icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal form .icon:hover, .modal form .icon:focus {
+    fill: #ffffff;
 }
 
 .text-input {
