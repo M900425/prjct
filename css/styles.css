@@ -711,10 +711,15 @@ textarea {
     outline: none;
     border-color: #8E8F99;
     border-radius: 4px;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    padding: 8px 16px;
 }
 
 .modal-checkbox {
-    margin: 0 24px 24px 24px;
     cursor: pointer;
     user-select: none;
     gap: 8px;
@@ -735,11 +740,10 @@ textarea {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     background: #FFFFFF;
-    width: 16px;
-    height: 16px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px
 }
 
 .send-btn {
