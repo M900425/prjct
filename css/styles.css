@@ -570,7 +570,6 @@ padding: 32px 16px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 1;
     pointer-events: auto;
-    padding: 72px 24px 24px 24px;
 }
 
 .modal-window .is-open {
@@ -588,6 +587,7 @@ padding: 32px 16px;
     min-height: 584px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .close-btn {
@@ -636,6 +636,14 @@ padding: 32px 16px;
     gap: 8px;
 }
 
+.icon-close {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close:hover .icon-close:focus {
+    fill: #ffffff
+}
+
 .modal label {
     color: #8E8F99;
     font-size: 12px;
@@ -661,14 +669,6 @@ padding: 32px 16px;
 .modal form .input-svg svg {
     margin-left: 16px;
     margin-right: 4px;
-}
-
-.modal form .icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal form .icon:hover, .modal form .icon:focus {
-    fill: #ffffff;
 }
 
 .text-input {
