@@ -578,6 +578,7 @@ padding: 32px 16px;
 }
 
 .modal {
+    width: 408px;
     background-color: #FCFCFC;
     border-radius: 4px;
     position: absolute;
@@ -640,8 +641,12 @@ padding: 32px 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover .icon-close:focus {
-    fill: #ffffff
+.close-btn:hover .icon-close, .close-btn:focus .icon-close {
+    fill: #ffffff;
+}
+
+.modal-labels {
+    margin-bottom: 8px;
 }
 
 .modal label {
@@ -649,6 +654,10 @@ padding: 32px 16px;
     font-size: 12px;
     font-weight: 400;
     display: block;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    
 }
 
 .modal form .input-svg {
@@ -726,5 +735,4 @@ padding: 32px 16px;
     height: 56px;
     border-radius: 4px;
     border: none;
-
 }
