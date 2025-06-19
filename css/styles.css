@@ -788,9 +788,81 @@ padding: 32px 16px;
 }
 
 @media (min-width:320px) {
-    .body {
-        nav {
-            
-        }
+    body .core-values .core-list {
+        flex-direction: column;
+        gap: 72px;
+    }
+    
+    .core-values .core-list li {
+        margin: 0 auto;
+    }
+
+    body .core-values .core-list h3 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    body .core-values .core-list p {
+        font-weight: 500;
+    }
+
+    body .team .team-read {
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    body .team .team-read li {
+        margin: 0 auto;
+    }
+
+    body .portfolio .prtfl-points {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .portfolio .prtfl-points li {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .end-f .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:72px;
+    }
+    
+    .end-f .logo-p,
+    .end-f .icons,
+    .end-f .subscribe {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .end-f .container .footer-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .end-f .container .footer-btn {
+        justify-content: center;
+    }
+
+    .end-f .icons .media {
+        text-align: center;
+    }
+
+    .end-f .subscribe-text {
+        justify-content: center;
+    }
+
+    .modal-window {
+        
+    }
+    
+    .modal {
+        
     }
 }
