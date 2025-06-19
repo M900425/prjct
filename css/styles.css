@@ -160,6 +160,7 @@ ul, ol {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .container {
@@ -778,4 +779,18 @@ padding: 32px 16px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
+}
+
+@media (min-resolution: 192dpi) {
+    .service {
+        background-image: url(../images/hero-image@2x.jpg);
+    }
+}
+
+@media (min-width:320px) {
+    .body {
+        nav {
+            
+        }
+    }
 }
