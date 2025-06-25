@@ -410,8 +410,6 @@ span {
 .service {
     background-color: #2E2F42;
     padding: 72px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -460,12 +458,10 @@ button {
     background-color: #404BBF;
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-    .service {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero-image@2x.jpg);
-    }
-}
+.service {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        image-set(url(../images/hero-image.jpg) 1x,
+            url(../images/hero-image@2x.jpg) 2x); }
 
 @media screen and (min-width: 768px) {
     .service {
