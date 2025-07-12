@@ -13,33 +13,78 @@
     </head>
 
     <body>
-        <header class="hero">
+        <header class="hero mobile-open">
             <div class="container">
-                <nav class="nvgtn-lst">
-                    <a class="logo" href="./index.html">Web<span>Studio</span></a>
-                    <ul class="all-nvgtn">
-                        <li>
-                            <a class="navigation" href="./index.html" id="first">Studio</a>
-                        </li>
-                        <li>
-                            <a class="navigation" href="">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="navigation" href="">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
-            
-                <address class="address">
-                    <ul class="address-conection">
-                        <li class="connection">
-                            <a class="cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="connection">
-                            <a class="cont" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
-                    </ul>
-                </address>
+                <a class="logo" href="./index.html">Web<span>Studio</span></a>
+                <div class="mobile-menu">
+                    <nav class="nvgtn-lst">
+                        <ul class="all-nvgtn">
+                            <li>
+                                <a class="navigation" href="./index.html" id="first">Studio</a>
+                            </li>
+                            <li>
+                                <a class="navigation" href="">Portfolio</a>
+                            </li>
+                            <li>
+                                <a class="navigation" href="">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="adress-icons">
+                        <address class="address">
+                            <ul class="address-conection">
+                                <li class="connection">
+                                    <a class="cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                </li>
+                                <li class="connection">
+                                    <a class="cont" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                                </li>
+                            </ul>
+                        </address>
+
+                        <ul class="icon-list-menu">
+                            <li class="icon-link-menu">
+                                <a href="" class="social-link-menu">
+                                    <svg width="24" height="24" class="icon-menu">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icon-link-menu">
+                                <a href="" class="social-link-menu">
+                                    <svg width="24" height="24" class="icon-menu">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icon-link-menu">
+                                <a href="" class="social-link-menu">
+                                    <svg width="24" height="24" class="icon-menu">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icon-link-menu">
+                                <a href="" class="social-link-menu">
+                                    <svg width="24" height="24" class="icon-menu">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="burger-btn" type="button">
+                    <svg class="burger-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                    </svg>
+                </button>
+                <button class="menu-close-btn" data-menu-close>
+                    <svg class="close-btn-menu" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-1"></use>
+                    </svg>
+                </button>
             </div>
         </header>
     
@@ -69,7 +114,7 @@
                         <li class="cores">
                             <div class="core-icon-container">
                                 <svg class="core-icon" width="64" height="64" viewBox="0 0 32 32">
-                                    <use href="./images/icons.svg#icon-clock-1"></use>
+                                    <use href="./images/icons.svg#icon-clock"></use>
                                 </svg>
                             </div>
                             <h3 class="core">Punctuality</h3>
