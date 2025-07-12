@@ -245,7 +245,7 @@ button {
     .mobile-open .address ul{
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        justify-content: space-between;
     }
 
     .mobile-open .address ul li a {
