@@ -1,3 +1,6 @@
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+
 const modal = document.querySelector(`.modal-window`);
 const btnClose = modal.querySelector(`.close-btn`);
 
@@ -34,3 +37,43 @@ const ChangeLang = (event) => {
 };
 
 langLinks.forEach(link => link.addEventListener('click', ChangeLang));
+
+const footerForm = document.querySelector(`.footer-form`);
+const footerInput = footerForm.querySelector(`.footer-input`);
+
+footerForm.addEventListener(`submit`, e => {
+    e.preventDefault();
+    iziToast.destroy();
+    if (footerInput.value.trim() === '') {
+        iziToast.warning({
+            id: 'footer-warning',
+            backgroundColor: '#D2CE4E',
+            messageColor: '#262624',
+            position: 'topRight',
+            message: 'Please fill in the input field!',
+            close: false,
+            transitionIn: 'bounceInLeft',
+            transitionOut: 'flipOutX',
+            pauseOnHover: false,
+            drag: false,
+            progressBar: false,
+            messageSize: 18,
+        });
+
+    } else {
+        iziToast.success({
+            backgroundColor: '#4eee0a',
+            messageColor: '#262624',
+            position: 'topRight',
+            message: 'Thank you!',
+            close: false,
+            transitionIn: 'bounceInLeft',
+            transitionOut: 'flipOutX',
+            pauseOnHover: false,
+            drag: false,
+            progressBar: false,
+            messageSize: 18,
+        });
+        footerInput.value = '';
+    }
+});
